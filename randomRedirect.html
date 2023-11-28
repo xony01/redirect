@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Link Redirect</title>
+    <script type="text/javascript">
+        function randomRedirect() {
+            var links = [
+                "https://docs.google.com/forms/d/e/1FAIpQLSea8_uc5CAoGs7JgVA5gSKp12U7ZXOQ7yLoulz8GvPccBJ_7Q/viewform?usp=sf_link",
+                "https://docs.google.com/forms/d/e/1FAIpQLScFi7vpyqaCRGYcCZxAKsaM8h-bB8fqn9Phaa3pnzkbvuby3g/viewform?usp=sf_link",
+                "https://docs.google.com/forms/d/e/1FAIpQLSeBAB8MkRcUiN-Wy01wTMA0HD0scfYguyoxNghF76-rGb1tRQ/viewform?usp=sf_link",
+                "https://docs.google.com/forms/d/e/1FAIpQLScUdD1eHgYEgkC35yaHJ2BYh_A23KlDH6fCC5MY42cKIVip_Q/viewform?usp=sf_link",
+                "https://docs.google.com/forms/d/e/1FAIpQLScvDpQ5IJQM9lTDsqS5qTylDYufkHcfkgrp3WWIWfozpYiTxw/viewform?usp=sf_link",
+                "https://docs.google.com/forms/d/e/1FAIpQLScwvyhAS7qnyPQujNyYSWvkxw5OQk0obsaxBeexaQ4vihXCsQ/viewform?usp=sf_link",
+                https://docs.google.com/forms/d/e/1FAIpQLSdhkAPFEQCyABhGg-AuK5Tj0ZugyYr9UBcQJhOb1bJLAdMqBg/viewform?usp=sf_link",
+                "https://docs.google.com/forms/d/e/1FAIpQLScAymcOPCbkqpYAVYdHYfdrKVtgkmew6QjH4BmHV1hFBd_b8g/viewform?usp=sf_link"
+            ];
+            var randomLink = links[Math.floor(Math.random() * links.length)];
+            window.location.href = randomLink;
+        }
+    </script>
+</head>
+<body onload="randomRedirect()">
+    <p>Redirecting...</p>
+</body>
+</html>
